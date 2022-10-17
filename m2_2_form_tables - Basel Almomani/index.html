@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>To register, please fill in the information below</h1>
+    </header>
+    <main>
+    <!-- Main Registration Section -->
+        <section>  
+            <form action="" method="POST">
+                <label for="name">Name: </label>
+                <input id="name" type="text" placeholder="Basel Almomani"><br><br>
+                <label for="dob">DOB: </label>
+                <input id="dob" type="date"><br><br>
+                <label for="weight">Weight: </label>
+                <input id="weight" type="number">
+            <!-- Gender Subsection -->
+                <div>
+                    <p>Gender :</p>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender">
+                </div><br>
+                <label for="email">Email: </label>
+                <input id="email" type="email" placeholder="test@test.com"><br><br>
+                <label for="phone_number">Phone Number: </label>
+                <input id="phone_number" type="tel" placeholder="07********"><br><br>
+            <!--Place Of Residence Subsection -->
+                <div>
+                    <label for="place_of_residence">Place Of Residence: </label>
+                    <select id="place_of_residence" name="place_of_residence">
+                        <option value="Aqaba">Aqaba</option>
+                        <option value="Ajloun">Ajloun</option>
+                        <option value="Irbed">Irbed</option>
+                        <option value="Amman">Amman</option>
+                        <option value="Zarqa">Zarqa</option>
+                        <option value="Mafraq">Mafraq</option>
+                        <option value="Jerash">Jerash</option>
+                        <option value="Madaba">Madaba</option>
+                        <option value="Balqa">Balqa</option>
+                        <option value="Karak">Karak</option>
+                        <option value="Tafileh">Tafileh</option>
+                        <option value="Maan">Maan</option>
+                    </select>
+                </div><br>
+                <label for="favorite_color">Favorite Color: </label>
+                <input id="favorite_color" type="color"><br><br>
+                <label for="student_CV">Student CV: </label>
+                <input id="student_CV" type="file"><br><br>
+                <label for="contact">By click the box you confirm that you accept to contact you through <strong>Email </strong></label>
+                <input id="contact" type="checkbox"><hr><br>
+            </form>
+        </section>
+    <!-- students table section -->
+        <section>
+            <table>
+                <caption>Students Names, Ages and Gender:</caption>
+                <thead>
+                    <tr>
+                        <th>Name </th>
+                        <th>Age </th>
+                        <th>Gender </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ahmed </td>
+                        <td>18 </td>
+                        <td>Male </td>
+                    </tr>
+                    <tr>
+                        <td>Layla </td>
+                        <td>21 </td>
+                        <td>Female </td>
+                    </tr>
+                    <tr>
+                        <td>Ali </td>
+                        <td>19 </td>
+                        <td>Male </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section><br><hr>
+    </main>
+    <footer>
+        <h3>Date: <time datetime="10-10-2022">10-10-2022</time></h3>
+        <h3><mark>Basel Almomani</mark></h3>
+    </footer>
+</body>
+</html>
