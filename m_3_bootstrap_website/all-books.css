@@ -1,0 +1,16 @@
+#title{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2.6rem;
+    font-family: 'Fuzzy Bubbles', cursive;
+    margin-bottom: 3rem;
+
+}
+
+.sideBar{
+    border-right: 0.5px solid black;    
+}
+
+.dropdown{
+    margin-top: 1.5rem;
+}
